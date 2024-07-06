@@ -162,10 +162,15 @@ sans-serif;
                             li {
                                 margin-bottom: 10px;
                                 display: block;
+                                font-size: 17px;
+                                font-weight: 700;
+                                text-transform: capitalize;
+                                color: var(--dark);
+                                font-family: $inter;
                                 a {
                                     font-family: $inter;
                                     font-size: 15px;
-                                    color: var(--dark);
+                                    color: rgba(0, 0, 0, .6);
                                     text-transform: uppercase;
                                     font-weight: 600;
                                     transition: all .3s ease;
@@ -173,6 +178,16 @@ sans-serif;
                                     &:hover {
                                         color: #000000;
                                         text-decoration: none;
+                                    }
+                                    span{
+                                        background: #0b86ea;
+                                        font-size: 13px;
+                                        font-family: $inter;
+                                        border-radius: 4px;
+                                        text-transform: capitalize;
+                                        font-weight: 600;
+                                        color: #ffffff;
+                                        padding: 5px;
                                     }
                                 }
                             }

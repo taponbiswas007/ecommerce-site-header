@@ -145,11 +145,16 @@
 .navbar-wrapper nav ul li .dropdownmenu .dropdownmenu-inner ul li {
   margin-bottom: 10px;
   display: block;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--dark);
+  font-family: "Inter", sans-serif;
 }
 .navbar-wrapper nav ul li .dropdownmenu .dropdownmenu-inner ul li a {
   font-family: "Inter", sans-serif;
   font-size: 15px;
-  color: var(--dark);
+  color: rgba(0, 0, 0, 0.6);
   text-transform: uppercase;
   font-weight: 600;
   -webkit-transition: all 0.3s ease;
@@ -158,6 +163,16 @@
 .navbar-wrapper nav ul li .dropdownmenu .dropdownmenu-inner ul li a:hover {
   color: #000000;
   text-decoration: none;
+}
+.navbar-wrapper nav ul li .dropdownmenu .dropdownmenu-inner ul li a span {
+  background: #0b86ea;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  border-radius: 4px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 5px;
 }
 .navbar-wrapper nav ul li .dropdownmenu .dropdownmenu-inner .addsbox {
   width: 300px;
@@ -185,4 +200,4 @@
   position: absolute;
   right: -15px;
   top: -5px;
-}
+}/*# sourceMappingURL=header.css.map */
